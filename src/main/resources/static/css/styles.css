@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.topnav{
+    display:table;
+    background-color: gray;
+    width: 100vw;
+    border: none;
+    margin: 20px;
+}
+.topnav a{
+    display:table-cell;
+    background-color: gray;
+    height: 10px;
+    text-align: center;
+    color: white;
+}
+
+.hero {
+    width: 100vw;
+    height:100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image: url("../images/splatter.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+.hero h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.hero .button {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+
+    /* Border styles */
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.form-group {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 20px;
+}
+
+.listing {
+    display: block;
+    margin-top:80px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: left;
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.linkbutton {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+
+    /* Padding and margins */
+    padding: .5em;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: auto;
+
+    /* Text styles */
+    color: gray;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+    vertical-align: center;
+
+    /* Border styles */
+    border: 3px solid gray;
+    border-radius: 20px;
+}
+
+.offset {
+    margin-left: 400 px;
+    text-align: left;
+}
